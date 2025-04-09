@@ -11,8 +11,7 @@ namespace _34_practicum
         static void Main(string[] args)
         {
             Garage garage = new Garage();
-            bool flag = true;
-            while (flag)
+            while (true)
             {
                 Console.WriteLine("\nВыберите нужное Вам действие:");
                 Console.WriteLine("1. Добавить в список велосипед;");
